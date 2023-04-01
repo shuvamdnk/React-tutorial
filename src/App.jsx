@@ -4,7 +4,7 @@ import About from './About';
 import { BrowserRouter,Routes,Route, Link } from 'react-router-dom'
 // import Profile from './Profile';
 // import User from './User';
-// import Form from './Form';
+import Form from './Form';
 // import List from './List';
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
         </Routes>
+
+        <Form/>
         
       </BrowserRouter>
     </>
